@@ -25,8 +25,14 @@
        "label": "sci-hub.cc"},
       {"value": "sci-hub.io",
        "label": "sci-hub.io"},
+      {"value": "moscow.sci-hub.ac",
+       "label": "moscow.sci-hub.ac"},
       {"value": "scihub22266oqcxt.onion",
-       "label": "scihub2226oqcxt.onion (only for Tor users)"}
-    ]
+       "label": "scihub2226oqcxt.onion (only for Tor users)"}]
+      }, {
+    "name": "scihubSecure",
+    "title": "Use secure connection",
+    "type": "bool",
+    "value": true
   }]
 }
