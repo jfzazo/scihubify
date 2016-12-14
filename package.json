@@ -1,10 +1,10 @@
 {
   "title": "scihubify",
   "name": "scihubify",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Open Links on Sci-Hub, search for selected text on Sci-Hub",
   "main": "index.js",
-  "author": "Rev. Wicks Cherrycoke",
+  "author": "Jose Fernando Zazo. Based on the original work of Wicks Cherrycoke",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
@@ -29,9 +29,21 @@
        "label": "moscow.sci-hub.ac"},
       {"value": "scihub22266oqcxt.onion",
        "label": "scihub2226oqcxt.onion (only for Tor users)"}]
-      }, {
+    }, {
+
+    "name": "searchDomain",
+    "title": "Research Search Engine",
+    "type": "menulist",
+    "options": [
+      {"value": "https://dl.acm.org/results.cfm?query=",
+       "label": "DL ACM"},
+      {"value": "http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=",
+       "label": "IEEExplore"},
+      {"value": "https://scholar.google.com/scholar?q=",
+       "label": "Google Scholar"}]
+    }, {
     "name": "scihubSecure",
-    "title": "Use secure connection",
+    "title": "Use Secure Connection (in communications with SciHub)",
     "type": "bool",
     "value": true
   }]
