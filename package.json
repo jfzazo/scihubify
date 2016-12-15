@@ -34,7 +34,10 @@
     "name": "searchDomain",
     "title": "Research Search Engine",
     "type": "menulist",
+    "value" : "https://www.scopus.com/results/results.uri?numberOfFields=0&src=s&scint=1&menu=search&dateType=Publication_Date_Type&yearFrom=Before+1960&yearTo=Present&loadDate=7&documenttype=All&sot=b&sdt=b&sl=27&s=",
     "options": [
+      {"value": "https://www.scopus.com/results/results.uri?numberOfFields=0&src=s&scint=1&menu=search&dateType=Publication_Date_Type&yearFrom=Before+1960&yearTo=Present&loadDate=7&documenttype=All&sot=b&sdt=b&sl=27&s=",
+       "label": "Scopus"},
       {"value": "https://dl.acm.org/results.cfm?query=",
        "label": "DL ACM"},
       {"value": "http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=",
